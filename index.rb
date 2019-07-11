@@ -1,5 +1,9 @@
 sum = 0
-(1..10).each do |num|
+input = gets.to_i
+(1..input).each do |num| 
+  # 2のヒント: この↓のコードを、条件分岐の中に入れてあげる(num % 2 == 0)...？
+  if num % 2 ==0
   sum += num
+  end
 end
 puts sum
